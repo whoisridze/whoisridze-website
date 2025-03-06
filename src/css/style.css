@@ -61,7 +61,7 @@ b {
 }
 #liner::before {
   color: #d72323;
-  content: "stranger@whoisridze.com:~$";
+  content: "stranger@whoisridze.vercel.app:~$";
 }
 #liner.password::before {
   content: "Password:";

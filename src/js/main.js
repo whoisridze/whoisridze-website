@@ -63,7 +63,7 @@ function enterKey(e) {
       commands.push(command.innerHTML);
       git = commands.length;
       addLine(
-        "stranger@whoisridze.com:~$ " + command.innerHTML,
+        "stranger@whoisridze.vercel.app:~$ " + command.innerHTML,
         "no-animation",
         0
       );
@@ -98,10 +98,6 @@ function commander(cmd) {
       break;
     case "discography":
       loopLines(discography, "color2 margin", 80);
-      break;
-    case "video":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
       break;
     case "sudo":
       let i = 0;
@@ -170,15 +166,12 @@ function commander(cmd) {
       liner.classList.add("password");
       pw = true;
       break;
-    case "projects":
-      loopLines(projects, "color2 margin", 80);
-      break;
     case "contactme":
       loopLines(contactme, "color2 margin", 80);
       break;
     case "password":
       addLine(
-        "<span class=\"inherit\"> Lol! You're joking, right? You're gonna have to try harder than that!😂</span>",
+        '<span class="inherit">I expected more from you...</span>',
         "error",
         100
       );

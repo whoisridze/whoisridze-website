@@ -35,7 +35,7 @@ const assets = {
     "k̴̢̛      ",
   ],
 
-  favicons: ["assets/img/favicon.png", "assets/img/alt-favicon.png"],
+  favicons: ["../assets/img/favicon.png", "../assets/img/alt-favicon.png"],
 };
 
 const state = {
