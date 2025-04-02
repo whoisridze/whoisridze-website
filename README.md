@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/JavaScript-ES6-yellow.svg" alt="JavaScript ES6">
 </div>
 
-This is my personal website, which looks and functions like a terminal! Here you will find all the information about me, including releases, links, and ways to contact me. The site is also full of quirky features and jokes, making it unique and fun.
+This is my personal website, which looks and functions like a terminal! Here you will find all the information about me, including releases, links, and ways to contact me. The site is also full of quirky features, making it unique.
 
 ## Features
 
